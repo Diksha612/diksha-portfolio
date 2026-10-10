@@ -1,0 +1,32 @@
+@media (max-width: 1000px) {
+  .skills-grid { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 860px) {
+  .menu-btn { display: inline-grid; }
+  .nav-links { display: none; position: absolute; left: 0; right: 0; top: var(--nav-h); background: var(--bg); border-bottom: 1px solid var(--border); box-shadow: var(--shadow); padding: .5rem 1rem 1rem; }
+  .nav-links.open { display: block; }
+  .nav-links ul { flex-direction: column; }
+  .nav-links a { padding: .75rem .5rem; }
+  .contact-grid { grid-template-columns: 1fr; }
+}
+@media (max-width: 700px) {
+  .projects-grid { grid-template-columns: 1fr; }
+  .section { padding: 3.5rem 0; }
+  .cert-preview object, .cert-preview iframe { height: 260px; }
+  .modal-bar h3 { font-size: .9rem; }
+}
+@media (max-width: 380px) {
+  .skills-grid { grid-template-columns: 1fr; }
+}
+/* Bottom-right floating button must not cover form controls on short mobile screens */
+@media (max-width: 700px) { .back-to-top { bottom: .75rem; right: .75rem; } }
+
+@media print {
+  .navbar, .back-to-top, .terminal, .skip-link, .filters, .cert-actions, .modal-backdrop, .contact-form, .menu-btn { display: none !important; }
+  :root, :root[data-theme='dark'] { --bg: #fff; --bg-alt: #fff; --surface: #fff; --text: #000; --muted: #333; --border: #bbb; --accent: #312E81; }
+  body { background: #fff; color: #000; }
+  .section { padding: 1.25rem 0; break-inside: avoid-page; }
+  .card, .cert-card, .timeline-item, .project-card { break-inside: avoid; box-shadow: none; }
+  .cert-preview { display: none; }
+  * { animation: none !important; transition: none !important; }
+}

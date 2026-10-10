@@ -1,0 +1,82 @@
+{
+  "certificates": [
+    {
+      "id": "syntecxhub-web-development",
+      "category": "internship",
+      "linkedEntryId": "syntecxhub-web-development",
+      "title": "SYNTECXHUB Web Development Internship Certificate",
+      "organization": "SYNTECXHUB",
+      "filePath": "/certificates/internships/syntecxhub-web-development.pdf",
+      "fileType": "pdf",
+      "status": "uploaded",
+      "verificationUrl": null,
+      "credentialId": null,
+      "issueDate": null
+    },
+    {
+      "id": "microsoft-azure-virtual-internship",
+      "category": "internship",
+      "linkedEntryId": "microsoft-azure-internship",
+      "title": "Microsoft Azure Virtual Internship Certificate",
+      "organization": "Microsoft Elevate & AICTE",
+      "filePath": "/certificates/internships/microsoft-azure-virtual-internship.pdf",
+      "fileType": "pdf",
+      "status": "uploaded",
+      "verificationUrl": null,
+      "credentialId": null,
+      "issueDate": null
+    },
+    {
+      "id": "sansach-technologies-java-full-stack",
+      "category": "internship",
+      "linkedEntryId": "sansach-java-full-stack",
+      "title": "Sansach Technologies Java Full Stack Internship Certificate",
+      "organization": "Sansach Technologies",
+      "filePath": "/certificates/internships/sansach-technologies-java-full-stack.pdf",
+      "fileType": "pdf",
+      "status": "uploaded",
+      "verificationUrl": null,
+      "credentialId": null,
+      "issueDate": null
+    },
+    {
+      "id": "java-full-stack-cadd-center-thane",
+      "category": "course",
+      "linkedEntryId": "java-full-stack-course",
+      "title": "Java Full Stack Certificate",
+      "organization": null,
+      "filePath": "/certificates/courses/java-full-stack-cadd-center-thane.pdf",
+      "fileType": "pdf",
+      "status": "uploaded",
+      "verificationUrl": null,
+      "credentialId": "b04d3196-96a6-4807-b454-42ad3196cd22",
+      "issueDate": "2026-06-03"
+    },
+    {
+      "id": "microsoft-azure-edunet-foundation",
+      "category": "course",
+      "linkedEntryId": "microsoft-azure-course",
+      "title": "Microsoft Azure Course Completion Certificate",
+      "organization": "Microsoft Elevate & AICTE",
+      "filePath": "/certificates/courses/microsoft-azure-edunet-foundation.pdf",
+      "fileType": "pdf",
+      "status": "uploaded",
+      "verificationUrl": null,
+      "credentialId": null,
+      "issueDate": null
+    },
+    {
+      "id": "flutter-dart-udemy",
+      "category": "course",
+      "linkedEntryId": "flutter-dart-course",
+      "title": "Flutter & Dart - The Complete Guide",
+      "organization": "Udemy",
+      "filePath": "/certificates/courses/flutter-dart-udemy.pdf",
+      "fileType": "pdf",
+      "status": "uploaded",
+      "verificationUrl": null,
+      "credentialId": "UC-baf3e71c-f0af-4eb2-b350-aac1ff3078c0",
+      "issueDate": "2026-07-26"
+    }
+  ]
+}
